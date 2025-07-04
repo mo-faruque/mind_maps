@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="5_mvXbcbzE75RgFcdfv_">
+    <mxGraphModel dx="973" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m1G97LiRdgHCtMjf50VV-1" value="Designs&amp;nbsp;&lt;div&gt;train: hw2vec benchmarks&amp;nbsp;&lt;/div&gt;&lt;div&gt;test: seekers-HT&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-2" value="Graph" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-3" value="node+edge features" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-4" value="GNN" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1G97LiRdgHCtMjf50VV-1" target="m1G97LiRdgHCtMjf50VV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1G97LiRdgHCtMjf50VV-2" target="m1G97LiRdgHCtMjf50VV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.994;exitY=0.458;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.013;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m1G97LiRdgHCtMjf50VV-3" target="m1G97LiRdgHCtMjf50VV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="610" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-8" value="1. RTL&lt;div&gt;2. Netlist&lt;/div&gt;&lt;div&gt;3. which benchmarks to use?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="320" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-9" value="1. AST&amp;nbsp;&lt;div&gt;2. CFG&lt;/div&gt;&lt;div&gt;3. DFG&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. AIG&lt;/div&gt;&lt;div&gt;5. structural netlist&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="320" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-10" value="1. what node/edge features to use?&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="340" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-11" value="gat, gnn, etc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="318" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-12" value="goals&amp;nbsp;&lt;div&gt;1. Scalability&amp;nbsp;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;Generalizability&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="123" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-13" value="&lt;div&gt;tools&amp;nbsp;&lt;/div&gt;1. pyverilog&amp;nbsp;&lt;div&gt;2. v2pyg&lt;/div&gt;&lt;div&gt;3. yosys&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="195" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-14" value="tools (not available)&amp;nbsp;&lt;div&gt;need to write scripts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-16" value="tools&amp;nbsp;&lt;div&gt;1.networkx&lt;/div&gt;&lt;div&gt;2. pyml&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="183" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-18" value="&lt;div&gt;tools&lt;/div&gt;pytorch&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-20" value="Next steps&amp;nbsp;&lt;div&gt;Exp 1. build on hw2vec structural netlist benchmarks and compare with their ast, cfg, expandability&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+          <mxGeometry x="243" y="240" width="17" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m1G97LiRdgHCtMjf50VV-22" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="17" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
